@@ -159,6 +159,17 @@ section {
     height: 80vh;
 }
 
+.image-details{
+    -webkit-border-radius: 5px;
+    border-radius: 50px;
+}
+
+.image-details:hover {
+    transition: all 2s ease;
+    -webkit-box-shadow: 2px 2px 1000px 1px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 1000px 1px rgba(0,0,0,0.75);
+}
+
 .section__pic-container {
     display: flex;
     height: 400px;
